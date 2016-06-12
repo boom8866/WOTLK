@@ -1,14 +1,14 @@
 # output generic information about the core and buildtype chosen
 message("")
-message("* SunwellCore revision   : ${rev_hash} ${rev_date} (${rev_branch} branch)")
+message("* WOTLK server revision   : ${rev_hash} ${rev_date} (${rev_branch} branch)")
 if( UNIX )
-  message("* SunwellCore buildtype  : ${CMAKE_BUILD_TYPE}")
+  message("* WOTLK server buildtype  : ${CMAKE_BUILD_TYPE}")
 endif()
 message("")
 
 # output information about installation-directories and locations
 
-message("* Install core to        : ${CMAKE_INSTALL_PREFIX}")
+message("* Install server to        : ${CMAKE_INSTALL_PREFIX}")
 if( UNIX )
   message("* Install libraries to   : ${LIBSDIR}")
   message("* Install configs to     : ${CONF_DIR}")
