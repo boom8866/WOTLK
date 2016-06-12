@@ -35,6 +35,8 @@ struct dtNavMeshCreateParams
 	const unsigned char* polyAreas;			// Array of area ids per polygon.
 	int polyCount;							// Number of polygons
 	int nvp;								// Number of verts per polygon.
+	int tileLayer
+	bool buildBvTree
 	// Navmesh Detail
 	const unsigned int* detailMeshes;		// Detail meshes, uses same format as rcPolyMeshDetail.
 	const float* detailVerts;				// Detail mesh vertices, uses same format as rcPolyMeshDetail (wu).
